@@ -6,3 +6,11 @@ p{
 
 
 /* Temporary Styles */
+ul.mobile-menu{
+  visibility: hidden;
+  display: none;
+}
+.mobile-menu li{
+  visibility: hidden;
+  display: none;
+}
