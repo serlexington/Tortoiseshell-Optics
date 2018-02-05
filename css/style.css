@@ -4,6 +4,7 @@ body{
   line-height: 1.4;
   font-family: Helvetica;
   font-size: 1rem;
+
 }
 .container{
   max-width: 960px;
@@ -17,15 +18,31 @@ header{
   background-size: cover;
   background-position: center;
   height: 30rem;
+  padding-top: 1rem;
 }
 nav{
   background-color: cadetblue;
   height: 3rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav span{
-  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
+nav img{
+  height: 1.5rem;
+  margin: 0 1rem 0 2rem;
+}
+ul li{
+  display: inline;
+}
+a{
   color: white;
   font-family: Helvetica;
+  padding-right: 2em;
 }
 /* Temporary Styles */
 ul.mobile-menu{
