@@ -67,6 +67,54 @@ header .flex{
   margin: auto;
 }
 
+/* Supporting Section */
+
+.supporting{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.item{
+  margin: 3rem;
+  width: 5rem;
+  text-align: center;
+  height: 8rem;
+  
+}
+.item img{
+  width: 3.5rem;
+}
+.item-text{
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+.ruler img{
+  margin-bottom: 2rem;
+}
+.truck img{
+  margin-bottom: 2rem;
+}
+
+/* Philosophy and Appointments Section */
+
+.information{
+  display: flex;
+  justify-content: center;
+
+}
+.info{
+  width: 35%;
+  margin-right: 5%;
+}
+.title{
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  max-width: 10rem;
+
+}
 /* Temporary Styles */
 ul.mobile-menu{
   visibility: hidden;
