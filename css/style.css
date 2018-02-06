@@ -67,6 +67,35 @@ header .flex{
   margin: auto;
 }
 
+.mobile-menu{
+  display: none;
+  color: white;
+  margin-right: 2rem;
+}
+/* Header Mobile */
+@media only screen and (max-width: 575px) {
+  .menu ul{
+    display: none;
+  }
+  .menu ul.mobile-menu {
+    display: block;
+}
+header{
+  padding: 0;
+  background-position: 20%;
+  height: 19rem;
+}
+.slogan{
+ width: 100%;
+ margin: 9rem auto 0 auto;
+ text-align: center;
+ font-size: 1rem;
+ padding: 0 1rem;
+}
+.slogan h1{
+  padding: 1rem 0;
+}
+}
 /* Supporting Section */
 
 .supporting{
@@ -75,7 +104,7 @@ header .flex{
   align-items: baseline;
 }
 .item{
-  margin: 3rem;
+  margin: 4rem;
   width: 5rem;
   text-align: center;
   height: 8rem;
@@ -103,6 +132,26 @@ header .flex{
   margin-left: 2rem;
 }
 
+/* Supporting Mobile */
+
+@media only screen and (max-width: 575px){
+  .supporting{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .paper img{
+    margin-left: 1.7rem;
+  }
+  .item-text{
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .item-text p{
+    align-items: center;
+  }
+}
+
 /* Philosophy and Appointments Section */
 
 .information{
@@ -126,8 +175,19 @@ header .flex{
   text-align: left;
   font-size: 1.1rem;
 }
-/* Temporary Styles */
-ul.mobile-menu{
-  visibility: hidden;
-  display: none;
+
+/* Footer Section */
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+  padding: 4rem;
+  background-color: azure;
 }
+footer img{
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 4rem;
+}
+
+/* Temporary Styles */
