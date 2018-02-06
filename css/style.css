@@ -79,7 +79,7 @@ header .flex{
   width: 5rem;
   text-align: center;
   height: 8rem;
-  
+
 }
 .item img{
   width: 3.5rem;
@@ -88,11 +88,19 @@ header .flex{
   margin-top: 1.5rem;
   font-weight: bold;
 }
+.item-text.paper{
+  text-align: right;
+}
 .ruler img{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
 }
 .truck img{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.paper img{
+  margin-left: 2rem;
 }
 
 /* Philosophy and Appointments Section */
@@ -100,7 +108,7 @@ header .flex{
 .information{
   display: flex;
   justify-content: center;
-
+  margin-bottom: 5rem;
 }
 .info{
   width: 35%;
@@ -108,12 +116,15 @@ header .flex{
 }
 .title{
   background-color: cadetblue;
-  padding: 0.5rem 1.25rem;
+  padding: 0.5rem 5rem 0.5rem 1.25rem;
   color: white;
   margin-bottom: 1rem;
   font-weight: bold;
   max-width: 10rem;
-
+}
+.info p{
+  text-align: left;
+  font-size: 1.1rem;
 }
 /* Temporary Styles */
 ul.mobile-menu{
