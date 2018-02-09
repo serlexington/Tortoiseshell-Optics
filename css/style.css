@@ -101,7 +101,6 @@ header{
 .supporting{
   display: flex;
   justify-content: center;
-  align-items: baseline;
 }
 .item{
   margin: 4rem;
@@ -138,7 +137,6 @@ header{
   .supporting{
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
   }
   .paper img{
   margin: 0;
@@ -154,10 +152,12 @@ header{
     text-align: center;
   }
   .item{
-    margin: 3rem 3rem 0 3rem;
+   margin: 3rem 0 3rem 0;
   }
-  .supporting{
-    margin-bottom: 3.77rem;
+
+  .mobile{
+    align-items: center;
+
   }
 }
 
@@ -189,8 +189,14 @@ header{
 
   }
   .info p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
+  }
+  .title p{
+    margin-left: 3rem;
+  }
+  .move-me{
+    margin-bottom: 2rem;
   }
 }
 
@@ -208,4 +214,18 @@ footer img{
   margin-left: 4rem;
 }
 
+@media only screen and (max-width: 575px){
+
+  footer p{
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+  footer img{
+    margin: 0;
+  }
+
+}
 /* Temporary Styles */
