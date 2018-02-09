@@ -15,6 +15,7 @@ body{
 }
 
 /* Header Section */
+
 header{
   background-image: url(./media/images/glasses-bg.png);
   background-repeat: no-repeat;
@@ -96,6 +97,21 @@ header{
   padding: 1rem 0;
 }
 }
+/* Header Tablet */
+
+@media only screen and (min-width: 576px) and (max-width: 976px){
+
+  header{
+    padding: 0;
+    background-position: 30%;
+  }
+  .slogan{
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+}
+
+
 /* Supporting Section */
 
 .supporting{
